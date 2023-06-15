@@ -1,26 +1,36 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <HeaderComponent />
+    <HeroComponent />
+    <AboutComponent />
+    <PopularComponent />
+    <TrendingComponent />
+    <SubscribeComponent />
+    <FooterComponent />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderComponent from "./components/header.component.vue";
+import HeroComponent from "./components/hero.component.vue";
+import AboutComponent from "./components/about.component.vue";
+import PopularComponent from "./components/popular.component.vue";
+import TrendingComponent from "./components/trending.component.vue";
+import SubscribeComponent from "./components/subscribe.component.vue";
+import FooterComponent from "./components/footer.component.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    HeaderComponent,
+    HeroComponent,
+    AboutComponent,
+    PopularComponent,
+    TrendingComponent,
+    SubscribeComponent,
+    FooterComponent,
+  },
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>
