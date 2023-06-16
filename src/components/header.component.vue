@@ -13,16 +13,16 @@
       </div>
       <ul class="header-menu" data-aos="fade-down">
         <li>
-          <a href="#">Menu</a>
+          <a href="#" @click="scrollToElement('menu')">Menu</a>
         </li>
         <li>
-          <a href="#">Food</a>
+          <a href="#" @click="scrollToElement('food')">Trending</a>
         </li>
         <li>
-          <a href="#">Services</a>
+          <a href="#" @click="scrollToElement('about-us')">About Us</a>
         </li>
         <li>
-          <a href="#">About Us</a>
+          <a href="#" @click="scrollToElement('services')">Services</a>
         </li>
       </ul>
       <ul class="header-menu-mobile" data-aos="fade-down">
@@ -37,6 +37,16 @@
 <script>
 export default {
   name: "HeaderComponent",
+  methods: {
+    scrollToElement(el) {
+      const element = document.getElementById(el).getBoundingClientRect();
+
+      window.scrollTo({
+        top: element.top,
+        behavior: "smooth",
+      });
+    },
+  },
 };
 </script>
 

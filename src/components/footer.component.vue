@@ -5,8 +5,8 @@
     <ul class="footer-nav">
       <li><a href="#menu">Menu</a></li>
       <li><a href="#food">Food</a></li>
-      <li><a href="#services">Services</a></li>
       <li><a href="#about-us">About Us</a></li>
+      <li><a href="#services">Services</a></li>
     </ul>
 
     <ul class="footer-social">

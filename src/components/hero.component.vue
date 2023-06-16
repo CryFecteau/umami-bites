@@ -207,7 +207,7 @@ export default {
 }
 
 .hero-content-review p {
-  font-size: 12px;
+  font-size: 1rem;
   font-weight: 400;
   font-family: var(--plus-jakarta-sans);
   color: var(--secondary-color);

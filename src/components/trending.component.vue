@@ -64,7 +64,7 @@
     <section class="trending-drinks">
       <div class="trending-image flex-center">
         <img src="../assets/trend2.png" alt="sushi-4" data-aos="fade-right" />
-        <h2>
+        <h2 data-aos="fade-up">
           う<br />
           な<br />
           丼
