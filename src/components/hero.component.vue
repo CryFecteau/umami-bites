@@ -13,15 +13,12 @@
         本 <br />
         食
       </h2>
-
       <div class="hero-image-overlay"></div>
     </div>
-
     <div class="hero-content">
       <div class="hero-content-info" data-aos="fade-left">
         <h1>Noodles, Broth, and Joy</h1>
         <p>Discover the flavors of authentic Japanese delights at Umami Bites</p>
-
         <div class="hero-content-buttons">
           <button class="hero-content-order-button">Order Now</button>
           <button class="hero-content-visit-button">
@@ -30,13 +27,11 @@
           </button>
         </div>
       </div>
-
       <div class="hero-content-testimonial" data-aos="fade-up">
         <div class="hero-content-customer flex-center">
           <h4>35<span>k+</span></h4>
           <p>Happy Customers</p>
         </div>
-
         <div class="hero-content-review">
           <img src="../assets/user.png" alt="user" />
           <p>
@@ -83,7 +78,6 @@ export default {
   position: absolute;
   inset: 0;
   width: 100%;
-
   background-color: var(--primary-color);
   z-index: -1;
 }
@@ -92,7 +86,6 @@ export default {
   position: absolute;
   bottom: 0;
   padding: 20px;
-
   font-family: var(--playfair-display);
   font-weight: 700;
   font-size: 120px;
@@ -124,7 +117,6 @@ export default {
 
 .hero-content-info p {
   margin: 32px 0 0 32px;
-
   font-family: var(--plus-jakarta-sans);
   color: var(--secondary-color);
   font-size: 18px;
@@ -133,7 +125,6 @@ export default {
 
 .hero-content-buttons {
   margin: 41px 0 0 41px;
-
   display: flex;
   flex-wrap: wrap;
   gap: 36px;
@@ -146,9 +137,7 @@ export default {
   outline: none;
   border: none;
   background: var(--secondary-color);
-
   cursor: pointer;
-
   color: #fff;
   font-weight: 500;
   font-size: 18px;
@@ -179,7 +168,6 @@ export default {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-
   background: var(--color-white);
 }
 

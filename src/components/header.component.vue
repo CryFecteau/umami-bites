@@ -11,7 +11,6 @@
         <h4 data-aos="fade-down">Umami Bites</h4>
         <div class="header-logo-overlay"></div>
       </div>
-
       <ul class="header-menu" data-aos="fade-down">
         <li>
           <a href="#">Menu</a>
@@ -26,7 +25,6 @@
           <a href="#">About Us</a>
         </li>
       </ul>
-
       <ul class="header-menu-mobile" data-aos="fade-down">
         <li>
           <i class="fas fa-bars"></i>
@@ -106,6 +104,7 @@ export default {
   gap: 20px;
   position: relative;
 }
+
 @media screen and (max-width: 900px) {
   .header-nav {
     background: var(--primary-color);

@@ -8,12 +8,10 @@
           鮮
         </h2>
       </div>
-
       <button class="about-us-button">
         Learn More
         <i class="fas fa-chevron-right"></i>
       </button>
-
       <div class="about-us-imageBottom">
         <img src="../assets/about2.png" alt="sushi" data-aos="fade-right" />
         <h2 data-aos="fade-left">
@@ -22,7 +20,6 @@
         </h2>
       </div>
     </div>
-
     <div class="about-us-content" data-aos="fade-left">
       <p class="about-us-subtitle">About Us / 私たちに関しては</p>
       <h3 class="about-us-title">Our Passion for Quality Ingredients</h3>
@@ -74,7 +71,6 @@ export default {
 
 .about-us-imageTop h2 {
   padding: 20px;
-
   font-family: var(--playfair-display);
   font-weight: 700;
   font-size: 120px;
