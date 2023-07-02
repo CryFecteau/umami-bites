@@ -6,17 +6,23 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
-    <HeaderComponent />
-    <HeroComponent />
-    <AboutComponent />
-    <PopularComponent />
-    <TrendingComponent />
-    <SubscribeComponent />
-    <FooterComponent />
+    <div v-if="!hasEntered">
+      <LoadingComponent @hasEntered="handleEnterClick" />
+    </div>
+    <div v-if="hasEntered">
+      <HeaderComponent />
+      <HeroComponent />
+      <AboutComponent />
+      <PopularComponent />
+      <TrendingComponent />
+      <SubscribeComponent />
+      <FooterComponent />
+    </div>
   </div>
 </template>
 
 <script>
+import LoadingComponent from "./components/loading.component.vue";
 import HeaderComponent from "./components/header.component.vue";
 import HeroComponent from "./components/hero.component.vue";
 import AboutComponent from "./components/about.component.vue";
@@ -28,6 +34,7 @@ import FooterComponent from "./components/footer.component.vue";
 export default {
   name: "App",
   components: {
+    LoadingComponent,
     HeaderComponent,
     HeroComponent,
     AboutComponent,
@@ -36,6 +43,16 @@ export default {
     SubscribeComponent,
     FooterComponent,
   },
+  data() {
+    return {
+      hasEntered: false,
+    };
+  },
+  methods: {
+    handleEnterClick(data) {
+      this.hasEntered = data;
+    }
+  }
 };
 </script>
 
