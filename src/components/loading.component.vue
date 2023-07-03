@@ -7,6 +7,7 @@
         it is a demo and not an ordering application. <br />
         Thank you for visiting!
       </p>
+      <p class="loading-subheader">- Crystal Fecteau</p>
       <div class="loading-footer">
         <div class="custom-loader"></div>
         <button
@@ -69,7 +70,11 @@ export default {
 }
 
 .loading-body {
-  margin: 2rem 0;
+  margin-top: 2rem;
+}
+
+.loading-subheader {
+  margin: 1rem 0 2rem;
 }
 .custom-loader {
   width: 100%;
