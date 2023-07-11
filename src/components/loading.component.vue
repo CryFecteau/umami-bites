@@ -2,9 +2,10 @@
   <div class="loading-content">
     <div class="loading-card">
       <h2 class="loading-header">Welcome to UMAMI BITES!</h2>
+      <p class="loading-subTitle">Vue.js/AOS/CSS</p>
       <p class="loading-body">
-        This responsive web application is built using Vue.js, AOS, and CSS. Please note,
-        it is a demo and not an ordering application. <br />
+        This is a mock restaurant website built using Vue.js, Animate on Scroll, and CSS.
+        Please note, it is a demo and not an ordering application. <br />
         Thank you for visiting!
       </p>
       <p class="loading-subheader">- Crystal Fecteau</p>
