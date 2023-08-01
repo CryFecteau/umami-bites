@@ -1,7 +1,7 @@
 <template>
   <section class="subscription flex-center" id="services">
     <h2 data-aos="flip-down">Dont Miss Out</h2>
-    <p data-aos="fade-up">Sign up for Umami Bites newsfeed and get exclusive offers.</p>
+    <p data-aos="fade-up">Sign up for UMAMI BITES newsfeed and get exclusive offers.</p>
 
     <div class="subscription-form" data-aos="fade-up">
       <input type="text" placeholder="Enter your email address" />

@@ -18,7 +18,8 @@
     <div class="hero-content">
       <div class="hero-content-info" data-aos="fade-left">
         <h1>Noodles, Broth, and Joy</h1>
-        <p>Discover the flavors of authentic Japanese delights at Umami Bites</p>
+        <p>Discover the flavors of authentic Japanese delights at UMAMI
+        BITES</p>
         <div class="hero-content-buttons">
           <button class="hero-content-order-button">Order Now</button>
           <button class="hero-content-visit-button">

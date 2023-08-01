@@ -26,8 +26,8 @@
       <p class="about-us-description">
         We believe that exceptional food starts with exceptional ingredients. That's why
         we source the freshest, highest quality produce, seafood, and meats for our
-        dishes. Every ingredient is carefully selected to ensure that every bite at Umami
-        Bites is a delight to your taste buds.
+        dishes. Every ingredient is carefully selected to ensure that every bite at UMAMI
+        BITES is a delight to your taste buds.
       </p>
     </div>
   </section>

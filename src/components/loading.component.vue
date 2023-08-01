@@ -4,8 +4,9 @@
       <h2 class="loading-header">Welcome to UMAMI BITES!</h2>
       <p class="loading-subTitle">Vue.js/AOS/CSS</p>
       <p class="loading-body">
-        This is a mock restaurant website built using Vue.js, Animate on Scroll, and CSS.
-        Please note, it is a demo and not an ordering application. <br />
+        Welcome to UMAMI Bites, a mock restaurant site, designed to showcase Vue.js,
+        Animate on Scroll, and CSS. Feel free to explore and interact with the site, but
+        please note that it's for demonstration purposes only.<br />
         Thank you for visiting!
       </p>
       <p class="loading-subheader">- Crystal Fecteau</p>
@@ -64,6 +65,7 @@ export default {
 }
 
 .loading-card {
+  width: 85%;
   padding: 3rem;
   background: white;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
